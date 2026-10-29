@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Catalyst is a hybrid learning community for practical AI, SaaS, markets, and AI-powered content creation."
+    />
+    <meta name="theme-color" content="#f6f5f0" />
+    <title>Catalyst — Learn with intent. Move with intelligence.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Catalyst home">
+        <img src="assets/catalyst-mark.svg" alt="" width="42" height="42" />
+        <span class="brand-name">catalyst<span class="brand-period">.</span></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="menu-toggle-lines" aria-hidden="true"></span>
+        <span class="sr-only">Open navigation</span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="#programs">Programs</a>
+        <a href="#approach">Our approach</a>
+        <a href="#calendar">Calendar</a>
+        <a href="#values">Values</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="contrast-toggle" type="button" aria-pressed="false">
+          <span class="contrast-icon" aria-hidden="true">◐</span>
+          <span>Contrast</span>
+        </button>
+        <button class="button button-dark button-small" type="button" data-open-portal>
+          Student portal <span aria-hidden="true">↗</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section-shell" id="home">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> A new kind of learning starts here</div>
+          <h1>Build skills<br />that <span>move you.</span></h1>
+          <p class="hero-description">
+            Practical learning for a world in motion. Explore AI, digital business, financial
+            markets, and the ideas shaping what comes next.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-lime" href="#programs">Explore programs <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#approach">Get to know Catalyst <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-meta">
+            <span class="meta-mark" aria-hidden="true">✳</span>
+            <p><strong>In person in F-10, Islamabad.</strong><br />Online for learners everywhere.</p>
+          </div>
+        </div>
+
+        <div class="hero-art-wrap" aria-label="Abstract illustration of ideas converging into a catalyst">
+          <div class="hero-art-note note-top"><span>01 / THINK</span><i></i></div>
+          <img
+            class="hero-art"
+            src="assets/hero-orbit.svg"
+            alt="An abstract luminous catalyst symbol surrounded by orbiting ideas"
+            width="700"
+            height="700"
+          />
+          <div class="hero-art-note note-bottom"><i></i><span>02 / MAKE IT MOVE</span></div>
+          <div class="hero-art-caption">LEARN WITH INTENT<br />MOVE WITH INTELLIGENCE</div>
+        </div>
+
+        <div class="hero-bottom">
+          <span class="mono-label">THE CATALYST METHOD</span>
+          <div class="hero-pillars" aria-label="Catalyst values">
+            <span>Discipline</span><b>·</b><span>Consistency</span><b>·</b><span>Pace</span><b>·</b><span>Intelligence</span>
+          </div>
+          <a class="scroll-cue" href="#programs">Scroll to explore <span aria-hidden="true">↓</span></a>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Catalyst learning motto">
+        <div class="ticker-track" aria-hidden="true">
+          <span>DISCIPLINE</span><i>✳</i><span>CONSISTENCY</span><i>✳</i><span>PACE</span><i>✳</i><span>INTELLIGENCE</span><i>✳</i>
+          <span>DISCIPLINE</span><i>✳</i><span>CONSISTENCY</span><i>✳</i><span>PACE</span><i>✳</i><span>INTELLIGENCE</span><i>✳</i>
+        </div>
+      </section>
+
+      <section class="programs section-shell section-space" id="programs">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-number">01</span> Find your direction</div>
+            <h2>Curiosity is a<br /><span>good place to start.</span></h2>
+          </div>
+          <div class="heading-aside">
+            <p>Separate learning paths. Real-world thinking. Find the skill you want to take further.</p>
+            <a class="text-link" href="#admissions">Not sure where to begin? <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="program-search-wrap">
+          <label class="program-search" for="site-search">
+            <span class="search-glass" aria-hidden="true"></span>
+            <input id="site-search" type="search" placeholder="Search courses, calendar, FAQs..." autocomplete="off" />
+            <kbd>Ctrl K</kbd>
+          </label>
+          <span class="search-hint" id="search-hint">Search programs, calendar, FAQs, and admissions</span>
+        </div>
+
+        <div class="program-grid" id="program-grid">
+          <article class="program-card card-lavender" data-searchable="ai artificial intelligence saas software automation digital business">
+            <div class="program-card-top">
+              <span class="course-index">COURSE 01</span>
+              <span class="course-arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="course-art course-art-ai" aria-hidden="true">
+              <span class="art-orbit orbit-one"></span><span class="art-orbit orbit-two"></span>
+              <span class="art-core">AI<span>+</span></span>
+              <span class="art-spark spark-one">✳</span><span class="art-spark spark-two">✦</span>
+            </div>
+            <div class="program-card-body">
+              <div class="course-tags"><span>AI &amp; SaaS</span><span>EXAMPLE PATH</span></div>
+              <h3>AI for work<br />&amp; business</h3>
+              <p>Explore useful AI tools, automation, and the foundations of building with software.</p>
+              <div class="course-footer"><span>Hybrid learning</span><button type="button" class="course-select" data-select-course="AI for work & business">View course <span aria-hidden="true">→</span></button></div>
+            </div>
+          </article>
+
+          <article class="program-card card-peach" data-searchable="forex foreign exchange trading finance financial markets risk">
+            <div class="program-card-top">
+              <span class="course-index">COURSE 02</span>
+              <span class="course-arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="course-art course-art-forex" aria-hidden="true">
+              <div class="chart-grid"></div><svg viewBox="0 0 280 150" role="presentation"><path d="M12 116 65 93l35 18 42-63 35 25 36-54 55 18" /></svg>
+              <span class="chart-label">MARKETS / 01</span><span class="chart-badge">↗</span>
+            </div>
+            <div class="program-card-body">
+              <div class="course-tags"><span>Forex</span><span>EXAMPLE PATH</span></div>
+              <h3>Forex &amp; market<br />foundations</h3>
+              <p>Understand currency markets, analysis, risk, and the discipline behind informed decisions.</p>
+              <div class="course-footer"><span>Hybrid learning</span><button type="button" class="course-select" data-select-course="Forex & market foundations">View course <span aria-hidden="true">→</span></button></div>
+            </div>
+          </article>
+
+          <article class="program-card card-mint" data-searchable="crypto cryptocurrency blockchain digital assets finance markets risk">
+            <div class="program-card-top">
+              <span class="course-index">COURSE 03</span>
+              <span class="course-arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="course-art course-art-crypto" aria-hidden="true">
+              <div class="crypto-orbit crypto-orbit-one"></div><div class="crypto-orbit crypto-orbit-two"></div>
+              <div class="crypto-coin">₿</div><span class="crypto-dot dot-one"></span><span class="crypto-dot dot-two"></span>
+              <span class="crypto-label">DECENTRALIZED<br />BY DESIGN</span>
+            </div>
+            <div class="program-card-body">
+              <div class="course-tags"><span>Crypto</span><span>EXAMPLE PATH</span></div>
+              <h3>Crypto &amp; digital<br />assets</h3>
+              <p>Get to know blockchain concepts, digital assets, and the fast-changing crypto landscape.</p>
+              <div class="course-footer"><span>Hybrid learning</span><button type="button" class="course-select" data-select-course="Crypto & digital assets">View course <span aria-hidden="true">→</span></button></div>
+            </div>
+          </article>
+
+          <article class="program-card card-blue" data-searchable="ai content creation creator video writing design generative media">
+            <div class="program-card-top">
+              <span class="course-index">COURSE 04</span>
+              <span class="course-arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="course-art course-art-creator" aria-hidden="true">
+              <div class="creator-window"><span></span><span></span><span></span><div class="creator-picture">✳</div><b>MAKE / SHARE / REPEAT</b></div>
+              <span class="creator-star">✦</span>
+            </div>
+            <div class="program-card-body">
+              <div class="course-tags"><span>AI Creation</span><span>EXAMPLE PATH</span></div>
+              <h3>AI-powered<br />content creation</h3>
+              <p>Shape ideas into compelling visuals, writing, and media with thoughtful AI workflows.</p>
+              <div class="course-footer"><span>Hybrid learning</span><button type="button" class="course-select" data-select-course="AI-powered content creation">View course <span aria-hidden="true">→</span></button></div>
+            </div>
+          </article>
+        </div>
+        <p class="sample-note"><span>ⓘ</span> Course titles and paths are examples for this preview. Confirmed curriculum, duration, and fees will be added by Catalyst.</p>
+        <p class="no-results" id="no-results" hidden>No matches yet. Try another keyword, or <a href="#admissions">talk with admissions</a>.</p>
+      </section>
+
+      <section class="approach section-shell section-space" id="approach">
+        <div class="approach-visual">
+          <div class="approach-orbit"><span class="approach-center">C</span><i class="orbit-point point-one"></i><i class="orbit-point point-two"></i><i class="orbit-point point-three"></i></div>
+          <span class="visual-coord coord-a">33° 41' N</span>
+          <span class="visual-coord coord-b">BUILD / 2026</span>
+          <span class="visual-caption">A learning rhythm<br />that keeps moving.</span>
+        </div>
+        <div class="approach-copy">
+          <div class="eyebrow"><span class="eyebrow-number">02</span> The Catalyst rhythm</div>
+          <h2>Progress is<br />a practice<span>.</span></h2>
+          <p class="approach-lead">Big ideas matter. So does showing up for the next small step.</p>
+          <div class="principle-list">
+            <div><span>01</span><h3>Discipline</h3><p>Give your ambition a shape and a place in your day.</p></div>
+            <div><span>02</span><h3>Consistency</h3><p>Build momentum through steady, repeatable effort.</p></div>
+            <div><span>03</span><h3>Pace</h3><p>Move with purpose—fast enough to grow, thoughtfully enough to learn.</p></div>
+            <div><span>04</span><h3>Intelligence</h3><p>Ask better questions. Use new tools with judgment and care.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="calendar-section section-space" id="calendar">
+        <div class="section-shell calendar-layout">
+          <div class="calendar-intro">
+            <div class="eyebrow"><span class="eyebrow-number">03</span> Keep an eye on what’s next</div>
+            <h2>Make room<br />for what’s <span>next.</span></h2>
+            <p>Plan your next step with a clear view of upcoming learning moments.</p>
+            <a class="button button-dark" href="#admissions">Ask about upcoming dates <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="calendar-card" data-searchable="academic calendar upcoming dates admissions orientation learning begins example schedule">
+            <div class="calendar-head">
+              <div><span class="mono-label">ACADEMIC CALENDAR</span><h3>Coming into focus</h3></div>
+              <span class="calendar-mark">C<span>.</span></span>
+            </div>
+            <div class="calendar-row">
+              <div class="calendar-date"><span>TBA</span><b>01</b></div>
+              <div class="calendar-event"><span class="event-type event-lime"></span><div><h4>Admissions open</h4><p>Example milestone · date to be confirmed</p></div></div>
+              <span class="event-arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="calendar-row">
+              <div class="calendar-date"><span>TBA</span><b>02</b></div>
+              <div class="calendar-event"><span class="event-type event-purple"></span><div><h4>Student orientation</h4><p>Example milestone · date to be confirmed</p></div></div>
+              <span class="event-arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="calendar-row">
+              <div class="calendar-date"><span>TBA</span><b>03</b></div>
+              <div class="calendar-event"><span class="event-type event-orange"></span><div><h4>Learning begins</h4><p>Example milestone · date to be confirmed</p></div></div>
+              <span class="event-arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="calendar-foot"><span>DATES ARE PLACEHOLDERS</span><span>Updated when confirmed ↗</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="values section-shell section-space" id="values">
+        <div class="values-heading">
+          <div class="eyebrow"><span class="eyebrow-number">04</span> Skills with a point of view</div>
+          <h2>Knowledge needs<br />a <span>compass.</span></h2>
+          <p>We believe capability grows stronger when it is grounded in responsibility, reflection, and respect.</p>
+        </div>
+        <div class="values-cards">
+          <article class="value-card value-card-muslim">
+            <div class="value-glyph" aria-hidden="true">۞</div>
+            <span class="value-audience">FOR MUSLIM STUDENTS</span>
+            <h3>Quran studies</h3>
+            <p>A dedicated part of the learning journey for Muslim students—rooted in reflection and understanding.</p>
+            <span class="value-foot">A COMPULSORY STUDY COMPONENT</span>
+          </article>
+          <article class="value-card value-card-all">
+            <div class="value-glyph" aria-hidden="true">◈</div>
+            <span class="value-audience">FOR EVERY STUDENT</span>
+            <h3>Ethics in practice</h3>
+            <p>Explore the choices, impacts, and responsibilities that come with the tools we use and the work we create.</p>
+            <span class="value-foot">SHARED PRINCIPLES. OPEN CONVERSATION.</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="admissions section-shell section-space" id="admissions">
+        <div class="admissions-panel">
+          <div class="admissions-copy">
+            <div class="eyebrow"><span class="eyebrow-dot"></span> Your next move begins here</div>
+            <h2>Curious what<br />you could <span>become?</span></h2>
+            <p>Tell us what you’re interested in. Our admissions team can help you find a starting point.</p>
+            <button type="button" class="button button-lime" data-open-contact>Start a conversation <span aria-hidden="true">↗</span></button>
+          </div>
+          <div class="admissions-graphic" aria-hidden="true">
+            <div class="admission-ring ring-a"></div><div class="admission-ring ring-b"></div>
+            <div class="admission-center">C<span>.</span></div>
+            <span class="admission-word word-a">START</span><span class="admission-word word-b">HERE</span>
+            <span class="admission-cross cross-a">✳</span><span class="admission-cross cross-b">+</span>
+          </div>
+        </div>
+        <div class="contact-grid" data-searchable="admissions application apply whatsapp phone call email contact consultation">
+          <button type="button" data-contact-method="Application form"><span class="contact-icon">↗</span><span><b>Apply</b><small>Share your interest</small></span><span class="contact-arrow">→</span></button>
+          <button type="button" data-contact-method="WhatsApp"><span class="contact-icon">◉</span><span><b>WhatsApp</b><small>Message admissions</small></span><span class="contact-arrow">→</span></button>
+          <button type="button" data-contact-method="Phone call"><span class="contact-icon">⌕</span><span><b>Call</b><small>Talk it through</small></span><span class="contact-arrow">→</span></button>
+          <button type="button" data-contact-method="Email"><span class="contact-icon">✉</span><span><b>Email</b><small>Send a question</small></span><span class="contact-arrow">→</span></button>
+          <button type="button" data-contact-method="Book a consultation"><span class="contact-icon">◷</span><span><b>Consultation</b><small>Find a time to talk</small></span><span class="contact-arrow">→</span></button>
+        </div>
+        <p class="contact-note">Admissions contact details are being prepared. This preview lets you explore the enquiry flow without sending your information.</p>
+      </section>
+
+      <section class="faq section-shell section-space" id="faq">
+        <div class="faq-heading">
+          <div class="eyebrow"><span class="eyebrow-number">05</span> Good questions, clear answers</div>
+          <h2>Before you<br /><span>take the leap.</span></h2>
+        </div>
+        <div class="faq-list">
+          <details data-searchable="online campus hybrid islamabad location">
+            <summary>Can I study online or on campus?<span aria-hidden="true">+</span></summary>
+            <p>Catalyst is planned as a hybrid learning centre, with an on-campus location in F-10, Islamabad, and online learning for students elsewhere. Confirmed delivery options may vary by course.</p>
+          </details>
+          <details data-searchable="course program ai saas forex crypto content creation">
+            <summary>What can I study at Catalyst?<span aria-hidden="true">+</span></summary>
+            <p>Example learning paths include AI and SaaS, Forex, Crypto, and AI-powered content creation. Final course outlines and schedules are being prepared.</p>
+          </details>
+          <details data-searchable="quran studies muslim compulsory ethics all students">
+            <summary>How are Quran studies and ethics included?<span aria-hidden="true">+</span></summary>
+            <p>Quran studies are a compulsory component for Muslim students. Ethics is part of the learning experience for all students, Muslim and non-Muslim.</p>
+          </details>
+          <details data-searchable="fees payment dates calendar admissions">
+            <summary>Where can I find fees and start dates?<span aria-hidden="true">+</span></summary>
+            <p>Fees and confirmed dates have not been provided yet. The calendar currently uses clearly marked examples; contact admissions for verified information when it becomes available.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-top section-shell">
+        <a class="brand footer-brand" href="#home" aria-label="Catalyst home">
+          <img src="assets/catalyst-mark.svg" alt="" width="42" height="42" />
+          <span class="brand-name">catalyst<span class="brand-period">.</span></span>
+        </a>
+        <p>Learn with intent.<br />Move with intelligence.</p>
+        <div class="footer-links"><a href="#programs">Programs</a><a href="#values">Our values</a><a href="#admissions">Admissions</a><button type="button" data-open-portal>Student portal ↗</button></div>
+      </div>
+      <div class="footer-bottom section-shell">
+        <span>F-10, Islamabad · Hybrid learning</span><span>© <span id="current-year">2026</span> Catalyst. Thoughtfully in motion.</span>
+      </div>
+    </footer>
+
+    <dialog class="app-dialog" id="portal-dialog" aria-labelledby="portal-title">
+      <button class="dialog-close" type="button" aria-label="Close dialog">×</button>
+      <div class="dialog-content" id="portal-content"></div>
+    </dialog>
+
+    <dialog class="app-dialog" id="contact-dialog" aria-labelledby="contact-title">
+      <button class="dialog-close" type="button" aria-label="Close dialog">×</button>
+      <div class="dialog-content">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> Catalyst admissions</div>
+        <h2 id="contact-title">Let’s find your<br /><span>starting point.</span></h2>
+        <p class="dialog-intro" id="contact-intro">Share a few details and choose how you’d like the admissions team to follow up. This is a frontend preview; your information will not be sent.</p>
+        <form id="contact-form">
+          <label>Your name<input name="name" autocomplete="name" required placeholder="e.g. Alex Khan" /></label>
+          <label>Email address<input name="email" type="email" autocomplete="email" required placeholder="you@example.com" /></label>
+          <label>What are you interested in?
+            <select name="interest">
+              <option>AI &amp; SaaS</option><option>Forex</option><option>Crypto</option><option>AI content creation</option><option>Not sure yet</option>
+            </select>
+          </label>
+          <label>Preferred follow-up
+            <select name="followup" id="followup-select">
+              <option>Application form</option><option>WhatsApp</option><option>Phone call</option><option>Email</option><option>Book a consultation</option>
+            </select>
+          </label>
+          <button class="button button-dark dialog-submit" type="submit">Preview enquiry <span aria-hidden="true">↗</span></button>
+          <p class="form-status" id="contact-status" role="status"></p>
+        </form>
+      </div>
+    </dialog>
+  </body>
+</html>
